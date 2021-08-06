@@ -3,5 +3,71 @@
 
 /* common styles or utilites */
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  line-height: 80px;
+}
+
+/*------------- 
+ nevaction bar 
+--------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #2d25a0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+
+  margin-right: 36px;
+}
+.link-btn {
+  border: none;
+  margin-top: 27px;
+  background-color: #e02c6d;
+  padding: 10px 24px 10px 24px;
+}
+.nav-bar {
+  margin-top: 50px;
+}
+
+/*-----------------
+ top siction style 
+ -----------------*/
+.top-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #2d25a0;
+}
+.top-heading {
+  margin-top: 121px;
+  margin-left: 156px;
+  margin-bottom: 169px;
+}
+.heading {
+  width: 485px;
+  height: 230px;
+}
+.top-banner img {
+  margin-right: 140px;
+  margin-top: 67px;
+  margin-bottom: 114px;
+  width: 556px;
+  height: 438px;
+}
+.top-section:hover .top-banner img {
+  transform: skew(20deg) rotate(360deg);
+  transition: transform 5s ease-in-out;
 }
