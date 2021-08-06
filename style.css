@@ -102,6 +102,10 @@ h1 {
 .highlights-info {
   width: 100%;
 }
+.highlights-info a {
+  text-decoration: none;
+  color: dimgray;
+}
 .highlights-heading {
   margin-left: 10%;
   font-size: 40px;
